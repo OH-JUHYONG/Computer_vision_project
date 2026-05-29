@@ -1,0 +1,59 @@
+# Python cache / local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# OS / editor / NAS metadata
+.DS_Store
+Thumbs.db
+@eaDir/
+*.swp
+*.swo
+
+# Runtime logs
+logs/
+*.log
+nohup.out
+
+# Datasets and generated synthetic images
+data/
+!data/.gitkeep
+!data/README.md
+
+# Model checkpoints, pretrained weights, and latent caches
+checkpoint/
+save/
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+*.safetensors
+
+# Experiment outputs. Keep launcher/monitor scripts, ignore generated results.
+experiments/**/results/
+classifier/**/results/
+
+# Generated analysis artifacts
+debug/*.csv
+debug/*.png
+debug/*.pdf
+debug/*.svg
+debug/*.json
+
+# Large media/export artifacts
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
